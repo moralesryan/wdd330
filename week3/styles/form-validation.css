@@ -1,7 +1,8 @@
 /*the VALID AND INVALID pseudo classes can give a little style to the form */
 input:valid {
-    border-color: green;
+    background-color: green;
 }
 
-input:invalid {
-    border-color: red; }
+input:focus:invalid {
+    background-color: red;
+}
