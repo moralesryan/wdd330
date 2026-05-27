@@ -24,10 +24,17 @@
     }
 }
 
-img {
-    transition: transform 2s ease;
-    transform: perspective(300px) translate3d(10px, 0, 20px) rotateY(20deg);
+.box {
+    background-color: hsl(200, 70%, 30%);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
 }
+
 
 footer {
     background-color: #333;
@@ -35,7 +42,6 @@ footer {
     padding: 20px;
     position: relative;
     bottom: 0;
-    width: 100%;
     text-align: center;
 
     & a {
