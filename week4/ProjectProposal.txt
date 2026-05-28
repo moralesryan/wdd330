@@ -1,0 +1,51 @@
+Cooking recipes website (Name is still pending - gotta think in a fire name)
+
+OVERVIEW:
+- A website/place where you can find the best recipes, healthy food, quick ones, traditionals, learn recipes from different cultures, etc. Don't know what to cook? Use our filters to narrow down your search
+adjusted to your needs. My drive is to help others develop love for cooking. 
+Knowing where to go when I don't know what to cook will be a good support and cooking tool for me and you! 
+
+TARGET AUDIENCE:    
+- Beginners, and pros (I'll try to make a page for people to leave their recipes). This site is for anyone who loves food as much as I do, 
+but run out of ideas on what to cook. And for master chefs who are experts in the kitchen and would like to share their wisdom with others.
+
+MAJOR FUNCTIONS: 
+- A recipe grid: like a place where you can see some pictures of the best recipes. 
+- Pop up with recipes' instructions: When you click on the recipe it will show you the step by step to make it yourself.
+- A wisdom drop page: A form for those who want to leave suggestions or recipes that are not in the page yet.
+- Filter function: A search bar to filter the search and find recipes based on user's needs.
+- Favorites: You can save your favorite recipes. 
+- A random recipe: A button that selects a random recipe for those that have a hard time choosing 😂
+- Reviews: You can choose how many starts or qualify a recipe. 
+- Transitions: for hero images, divs, sections, and more. 
+
+WIREFRAMES:
+- Take a look at the screenshots 👇
+
+APIs:
+- FakerAPI.it - use to create fake recipes, author and titles. Also for the reviews. 
+- TheMealDB - for random photos, cuisine categories and names. 
+
+MODULE LIST:
+- main.js
+- api.js
+- recipePopUp.mjs
+- filters.mjs
+- favorites.mjs
+- reviews.mjs
+- wisdomDrop.mjs
+- randomRecipe.mjs
+
+GRAPHIC IDENTITY: 
+Color Scheme:
+  --color-primary:  #1D9E75;  
+  --color-background: #F7FFFE;  
+  --color-text:     #04342C;  
+  --color-accent:   #EF9F27;  
+  --color-subtle:   #E1F5EE; 
+}
+
+Typography: 
+Georgia serif — headings
+System sans — body
+Italic serif — accents
