@@ -49,3 +49,32 @@ Typography:
 Georgia serif — headings
 System sans — body
 Italic serif — accents
+
+FavIcon: favicon.png image 👇
+
+Timeline: 
+
+Week 5
+- complete html structure for all major views
+- style basic CSS layout and navigation
+- implement api.js connnect to TheMealDB API to fetch categories, recipe details, etc. 
+- connect to Faker API for fake authors, titles, reviews and recipes. 
+
+Week 6
+- build pop up modal for the recipes
+- implement the filer and search system (mjs)
+- build favorites system
+- surprise me feature/button
+
+Week 7
+- work on wisdom drop page / form
+- finalize surprise me button
+- refine UI, UX and CSS animations and more
+- deploy!!!
+
+Trello: https://trello.com/invite/b/6a1bbe7e2f662cc4c99b949f/ATTIfa56e707b55b41656dcc98b3db69732e788FB05C/cooking-website
+
+Challenges: 
+- API integration + data handling 
+- Filters and search bar
+- Module communication to main.js
