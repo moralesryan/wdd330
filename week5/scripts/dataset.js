@@ -1,4 +1,14 @@
-const inicio = document.querySelector('#buton');
+const items = document.querySelectorAll('#items li');
+const details = document.createElement('div');
+document.body.appendChild(details);
 
-inicio.dataset.userId = '12';
-console.log(inicio.dataset.userId); // Logs '12' to the console
+items.forEach(item => {
+    item.addEventListener('click', () => {
+        details.innerHTML = `
+            <h2>Items Details</h2>
+            <p>Name: ${item.dataset.name}</p>
+            <p>Category: ${item.dataset.category}</p>
+            <p>Color: ${item.dataset.color}</p>
+            `;
+    });
+});
